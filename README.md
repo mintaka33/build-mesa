@@ -13,6 +13,7 @@ sudo apt-get build-dep mesa
 
 mkdir build && cd build
 ../mesa/autogen.sh --with-dri-drivers=i965 --with-vulkan-drivers=intel --enable-gles2 --enable-llvm --with-gallium-drivers=i915
+make -j8
 ```
 
 ## reference
